@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 
 import { Check } from 'lucide-react';
 
@@ -68,7 +67,7 @@ const PricingTable = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {tiers.map((tier, index) => (
+          {tiers.map((tier, ) => (
             <div
               key={tier.name}
               className={`glass-card relative p-8 flex flex-col ${
